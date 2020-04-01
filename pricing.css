@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+header .header-banner {
+    width: 100%;
+    height: calc(100vh);
+    background-image: url("pricing_header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo {
+    width:50px;
+    margin: 25px;
+    float: left;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none; 
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    display:inline-flex;
+    padding: 20px;
+
+}
+
+.navbar_links{
+    float:right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.menu a:hover{
+    color:darkorange;
+}
+
+button{
+    background-color: #fe763c;
+    font-family: 'Lato', sans-serif;
+    font-size: 160%;
+    color:white;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+#wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px #474747;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    padding-bottom: 60px;
+    box-shadow:  3px 3px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box h1{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 250%;
+    color: #474747;
+}
+
+ul { list-style-type: none; }
+
+.box li{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #474747;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+}
+
+.box h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #474747;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+
+
+.column{
+    float: left;
+    width:22%;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.lnr-checkmark-circle {
+  color: green;
+  font-size: 40px;
+    padding-left: 15px;
+
+}
+
+.lnr-cross-circle {
+  color: red;
+  font-size: 40px;
+    padding-left: 15px;
+} 
+
+.container {
+    width: 100%;
+    height: calc(80vh);
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 100px;
+    object-fit: contain;
+
+}
+
+.footer{
+    bottom:0;
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 125px; 
+}
+
+.footer_text img{
+     padding-bottom: 25px;
+    padding-right: 30px;
+}
+   
+.footer_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    color:#474747;
+    letter-spacing:2px;
+    font-weight: 100;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+
+@media (max-height:800px){
+	footer { position: static; }
+}
+
+@media (max-width: 1000px) {
+   
+
+	.footer{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer{
+		margin-left: 0;
+	}
+    }
